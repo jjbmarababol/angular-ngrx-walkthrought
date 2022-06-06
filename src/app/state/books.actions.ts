@@ -1,4 +1,3 @@
-content_copy;
 import { createAction, props } from '@ngrx/store';
 import { Book } from '../book-list/books.model';
 
