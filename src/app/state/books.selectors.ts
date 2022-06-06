@@ -10,6 +10,7 @@ export const selectBookCollection = createSelector(
   selectBooks,
   selectCollectionState,
   (books, collection) => {
+    console.log("selectBookCollection", books, collection);
     return collection.map((id) => books.find((book) => book.id === id));
   }
 );
